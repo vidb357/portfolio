@@ -1,0 +1,109 @@
+#skills {
+    padding: 60px 20px;
+    background: #f9f9f9;
+    text-align: center;
+    animation: fadeIn 1s ease-in;
+}
+
+    #skills h2 {
+        font-size: 2.5em;
+        color: #333;
+        margin-bottom: 40px;
+    }
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill {
+    width: 30%;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+    .skill:hover {
+        transform: scale(1.05);
+    }
+
+    .skill h3 {
+        margin-top: 10px;
+        color: #333;
+    }
+
+.progress-bar {
+    width: 100%;
+    background: #e0e0e0;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.progress {
+    height: 10px;
+    border-radius: 5px;
+    transition: width 0.6s ease-in-out;
+}
+
+.java-progress {
+    width: 80%;
+    background-color: #ff9800;
+}
+
+.cpp-progress {
+    width: 75%;
+    background-color: #0071c5;
+}
+
+.python-progress {
+    width: 85%;
+    background-color: #4caf50;
+}
+
+.sql-progress {
+    width: 80%;
+    background-color: #00bcd4;
+}
+
+.react-progress {
+    width: 90%;
+    background-color: #61dafb;
+}
+
+.html-progress {
+    width: 95%;
+    background-color: #f44336;
+}
+
+.css-progress {
+    width: 85%;
+    background-color: #2196f3;
+}
+
+/* Skill Icons */
+.skill i {
+    font-size: 3em;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+    .skill i:hover {
+        color: #f39c12;
+    }
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
